@@ -56,7 +56,7 @@ const Admin = () => {
       
       
     try {
-        const response  = await fetch('http://localhost:3000/api/singleplace',
+        const response  = await fetch('https://tripverse-server.vercel.app/api/singleplace',
             {
               method: 'POST',
               body: formData
